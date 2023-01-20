@@ -17,7 +17,7 @@ class SecondActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_second)
+        setContentView(R.layout.activity_second )
         textViewRandom = findViewById(R.id.textViewRandom)
         textView = findViewById(R.id.textView)
         showNumber()
