@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FirstAppGood</string>
+    <string name="hello_world_text">Hello Man</string>
+    <string name="zero">0</string>
+    <string name="toast">TOAST</string>
+    <string name="count">COUNT</string>
+    <string name="random">RANDOM</string>
+    <string name="random_heading">Random number from 0 and %1d</string>
+</resources>
