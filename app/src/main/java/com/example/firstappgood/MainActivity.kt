@@ -7,8 +7,6 @@ import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 
-
-
 class MainActivity : AppCompatActivity() {
     private lateinit var textView: TextView
 
@@ -35,6 +33,11 @@ class MainActivity : AppCompatActivity() {
         val countString = textView.text.toString()
         val count = countString.toInt()
         randomIntent.putExtra(SecondActivity.TOTAL_COUNT, count)
+        startActivity(randomIntent)
+    }
+
+    fun forCheckActivity(view: View) {
+        val randomIntent = Intent(this, thirdActivity::class.java)
         startActivity(randomIntent)
     }
 }
